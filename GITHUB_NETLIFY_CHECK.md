@@ -33,13 +33,18 @@
 - GitHub repozitáre sú verejné. Predchádzajúci prehľad Netlify označoval samotné projekty ako súkromné a produkčné weby ako verejné.
 - Tento dokument je snímka stavu v uvedenom čase. Jeho uloženie vytvorí v `opf-web-presentations` ďalší dokumentačný commit, ktorý môže spustiť nové nasadenie bez zmeny `index.html`.
 
-## Ako zopakovať kontrolu
+## Automatický postup pri vyvolaní
 
-Napíš **„Aktualizuj GitHub–Netlify check“**. Pri kontrole:
+**Spúšťacia fráza:** „Aktualizuj GitHub–Netlify check“. Po jej prijatí vykonaj celý postup bez potreby ďalšieho zadania:
 
-1. Prečítaj vetvu `main` a `index.html` v oboch GitHub repozitároch.
-2. Získaj stav projektov a produkčných nasadení **priamo z Netlify API alebo priameho prepojenia**; porovnaj nasadené commity s GitHubom.
-3. Načítaj obe produkčné URL priamou HTTP požiadavkou a over stav aj kľúčový obsah.
-4. Zobraz aktuálny výsledok prehľadne v chate a aktualizuj tento súbor.
+1. **GitHub:** v repozitároch `roman-sperka/opf-web-presentations` a `roman-sperka/opf-web-test` načítaj aktuálny commit vetvy `main` a obsah `index.html`.
+2. **Netlify priamo:** načítaj údaje o projektoch cez Netlify API:
+   - `GET https://api.netlify.com/api/v1/sites/96763b33-5bf9-4298-b65f-c5603369e0fa`
+   - `GET https://api.netlify.com/api/v1/sites/d1e629a9-9f6d-4181-ad3c-fa07d3513401`
+   Zisti stav `published_deploy`, vetvu, commit a čas publikovania. Podľa potreby načítaj `GET /api/v1/sites/{site_id}/deploys?per_page=5`, najmä po zápise tohto súboru.
+3. **Živé weby:** priamou HTTP požiadavkou bez prehliadača načítaj `https://magnificent-creponne-b671ef.netlify.app/` a `https://webpres1.netlify.app/`. Over úspešný stav HTTP a základný obsah: pri prvom „Webové prezentácie OPF“, pri druhom „Automatická aktualizácia funguje!“ a ovládacie prvky počítadla.
+4. **Porovnanie:** pri každom webe porovnaj nasadený commit Netlify s GitHub vetvou `main`. Rozlišuj stav `ready`, prebiehajúce nasadenie, chybu a rozdiel commitov. Zaznamenaj čas kontroly v `Europe/Bratislava`.
+5. **Správa:** aktualizuj tento Markdown súbor faktami z novej kontroly. V odpovedi v chate vždy zobraz samostatne zrozumiteľný výsledok: stručné zhrnutie, tabuľku oboch webov s obsahom a stavom nasadenia, prípadné problémy a odkaz na tento súbor. Samotný odkaz nestačí.
+6. **Overenie zápisu:** po uložení skontroluj, že je nový Markdown súbor na GitHube čitateľný. Zápis vytvorí ďalší commit v hlavnom repozitári; skontroluj cez Netlify API, či jeho automatické nasadenie dosiahlo stav `ready`. Výsledok tohto posledného nasadenia oznám v chate. Neprepisuj správu opakovane len kvôli zaznamenaniu jej vlastného commitu.
 
-**Nepoužívaj používateľov Chrome ani jeho prihlásenú reláciu.** Ak priame Netlify overenie zlyhá, označ Netlify časť ako neoverenú a starší stav nevydávaj za aktuálny.
+**Nepoužívaj používateľov Chrome ani jeho prihlásenú reláciu.** Ak priame Netlify overenie zlyhá, uveď presne, ktorá časť zostala neoverená. Starší stav nikdy neoznačuj za aktuálny. Tento check sa spúšťa na vyžiadanie uvedenou frázou; nemá samostatný časový plán.
