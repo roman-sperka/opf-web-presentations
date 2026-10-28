@@ -1,45 +1,45 @@
 # GitHub–Netlify check: weby OPF
 
-**Dátum kontroly:** 28. 10. 2026 (Europe/Bratislava)  
-**Účel:** stručný, opakovateľný prehľad obsahu dvoch webov a ich prepojenia GitHub → Netlify.  
-**Rozsah pôvodnej kontroly:** GitHub repozitáre, produkčné stránky otvorené v prihlásenom prehliadači a prehľady projektov Netlify.
-**Pravidlo pre ďalšie kontroly:** Netlify overovať priamo cez jeho API alebo priame prepojenie dostupné asistentovi; nepoužívať používateľov Chrome ani jeho prihlásenú reláciu.
+**Posledná kontrola:** 28. 10. 2026, 20:57 (Europe/Bratislava)  
+**Metóda:** GitHub cez prepojený účet; údaje o nasadení priamo z Netlify API; obsah produkčných URL cez priamu HTTP požiadavku. **Chrome sa nepoužil.**
 
-## Rýchly prehľad
+## Výsledok
 
-| Web | Živá adresa | GitHub repozitár | Projekt Netlify | Stav pri kontrole |
-| --- | --- | --- | --- | --- |
-| Webové prezentácie OPF | [magnificent-creponne-b671ef.netlify.app](https://magnificent-creponne-b671ef.netlify.app/) | [roman-sperka/opf-web-presentations](https://github.com/roman-sperka/opf-web-presentations) | [magnificent-creponne-b671ef](https://app.netlify.com/projects/magnificent-creponne-b671ef/overview) | Produkčné nasadenie z GitHubu, vetva `main`; obsah stránky sa načítal. |
-| Test webových aplikácií OPF | [webpres1.netlify.app](https://webpres1.netlify.app/) | [roman-sperka/opf-web-test](https://github.com/roman-sperka/opf-web-test) | [webpres1](https://app.netlify.com/projects/webpres1/overview) | Produkčné nasadenie z GitHubu, vetva `main`; obsah stránky sa načítal. |
+| Web | Produkčná adresa | GitHub zdroj | Výsledok kontroly |
+| --- | --- | --- | --- |
+| Webové prezentácie OPF | [magnificent-creponne-b671ef.netlify.app](https://magnificent-creponne-b671ef.netlify.app/) | [roman-sperka/opf-web-presentations](https://github.com/roman-sperka/opf-web-presentations) | Netlify `ready`, vetva `main`, produkčná stránka `HTTP 200`. |
+| Test webových aplikácií OPF | [webpres1.netlify.app](https://webpres1.netlify.app/) | [roman-sperka/opf-web-test](https://github.com/roman-sperka/opf-web-test) | Netlify `ready`, vetva `main`, produkčná stránka `HTTP 200`. |
 
 ## 1. Webové prezentácie OPF
 
-- **Aktuálny obsah:** jednoduchá úvodná stránka s označením „OPF · Slezská univerzita v Opavě“, nadpisom „Webové prezentácie OPF“ a oznamom o prvej testovacej stránke publikovanej cez ChatGPT → GitHub → Netlify.
-- **Zdroj stránky:** [index.html](https://github.com/roman-sperka/opf-web-presentations/blob/main/index.html). Ide o samostatný statický HTML súbor so štýlmi priamo v súbore.
-- **Prepojenie:** [prehľad Netlify](https://app.netlify.com/projects/magnificent-creponne-b671ef/overview) uvádza „Deploys from GitHub“ a odkazuje na repozitár `roman-sperka/opf-web-presentations`.
-- **Posledná overená obsahová verzia:** commit [`27f4e00`](https://github.com/roman-sperka/opf-web-presentations/commit/27f4e0090cb250adaeb12314b9e6e8372514cf8f), v Netlify uvedený ako aktuálne publikovaný 28. 10. 2026 o 20:20.
+- **Aktuálny obsah:** úvodná stránka „Webové prezentácie OPF“ s označením „OPF · Slezská univerzita v Opavě“ a informáciou o publikovaní cez ChatGPT → GitHub → Netlify.
+- **Zdroj:** [index.html](https://github.com/roman-sperka/opf-web-presentations/blob/main/index.html); samostatný HTML súbor so štýlmi.
+- **Netlify projekt:** [magnificent-creponne-b671ef](https://app.netlify.com/projects/magnificent-creponne-b671ef/overview), ID `96763b33-5bf9-4298-b65f-c5603369e0fa`.
+- **Priame overenie:** Netlify API vrátilo produkčné nasadenie `ready`, vetvu `main` a commit `9dd09a2460094a3e0ba1db0824a8c667f60bcb41`. Tento commit sa v čase kontroly zhodoval s vrcholom vetvy `main` na GitHube. Produkčná URL vrátila `HTTP 200`, názov „OPF | Webové prezentácie“ a očakávaný nadpis.
+- **Čas nasadenia overeného pred uložením tejto správy:** 28. 10. 2026, 20:55 (Europe/Bratislava). Posledná zmena obsahu stránky je v commite [`27f4e00`](https://github.com/roman-sperka/opf-web-presentations/commit/27f4e0090cb250adaeb12314b9e6e8372514cf8f); novšie commity upravovali dokumentáciu.
 
 ## 2. Test webových aplikácií OPF
 
-- **Aktuálny obsah:** testovacia stránka s nadpisom „Automatická aktualizácia funguje!“, informáciou o publikovaní cez GitHub a Netlify a počítadlom s tlačidlami „Pridať +1“ a „Reset“.
-- **Zdroj stránky:** [index.html](https://github.com/roman-sperka/opf-web-test/blob/main/index.html). Ide o samostatný HTML súbor so štýlmi a krátkym JavaScriptom pre počítadlo.
-- **Prepojenie:** [prehľad Netlify](https://app.netlify.com/projects/webpres1/overview) uvádza „Deploys from GitHub“ a odkazuje na repozitár `roman-sperka/opf-web-test`.
-- **Posledná overená obsahová verzia:** commit [`d5ed78c`](https://github.com/roman-sperka/opf-web-test/commit/d5ed78c137ae1b45dd8e1acd24ee85221d316da2), v Netlify uvedený ako aktuálne publikovaný 28. 10. 2026 o 20:34.
+- **Aktuálny obsah:** stránka „Automatická aktualizácia funguje!“ s počítadlom a tlačidlami „Pridať +1“ a „Reset“.
+- **Zdroj:** [index.html](https://github.com/roman-sperka/opf-web-test/blob/main/index.html); HTML, štýly a krátky JavaScript.
+- **Netlify projekt:** [webpres1](https://app.netlify.com/projects/webpres1/overview), ID `d1e629a9-9f6d-4181-ad3c-fa07d3513401`.
+- **Priame overenie:** Netlify API vrátilo produkčné nasadenie `ready`, vetvu `main` a commit [`d5ed78c`](https://github.com/roman-sperka/opf-web-test/commit/d5ed78c137ae1b45dd8e1acd24ee85221d316da2). Commit sa zhodoval s vrcholom vetvy `main` na GitHube. Produkčná URL vrátila `HTTP 200`, očakávaný nadpis a ovládacie prvky počítadla.
+- **Čas publikovania:** 28. 10. 2026, 20:34 (Europe/Bratislava).
 
-## Čo prepojenie potvrdzuje
+## Čo je overené a čo to znamená
 
-1. Oba projekty Netlify ukazujú priamy odkaz na zodpovedajúci GitHub repozitár.
-2. Produkčná aktivita Netlify pri oboch weboch uvádza nasadenie z vetvy `main` a commit, ktorý existuje v príslušnom repozitári.
-3. Načítané živé stránky zodpovedajú obsahu súborov `index.html` v týchto repozitároch.
-
-GitHub repozitáre sú verejné. Netlify označuje **projekt** ako súkromný a **produkčný web** ako verejný. Prístup anonymného návštevníka bez prihlásenia nebol osobitne overený.
+- Oba aktuálne nasadené commity v Netlify sa zhodovali s príslušnou vetvou `main` na GitHube.
+- Obe produkčné URL odpovedali priamo bez prihlásenia stavom `HTTP 200` a zobrazili očakávaný obsah.
+- GitHub repozitáre sú verejné. Predchádzajúci prehľad Netlify označoval samotné projekty ako súkromné a produkčné weby ako verejné.
+- Tento dokument je snímka stavu v uvedenom čase. Jeho uloženie vytvorí v `opf-web-presentations` ďalší dokumentačný commit, ktorý môže spustiť nové nasadenie bez zmeny `index.html`.
 
 ## Ako zopakovať kontrolu
 
-Napíš v chate napríklad: **„Aktualizuj GitHub–Netlify check podľa súboru `GITHUB_NETLIFY_CHECK.md` v repozitári `roman-sperka/opf-web-presentations`.“**
+Napíš **„Aktualizuj GitHub–Netlify check“**. Pri kontrole:
 
-Pri opakovaní treba (1) prečítať oba GitHub repozitáre a aktuálne `index.html`, (2) získať údaje o projektoch, pripojených repozitároch a posledných produkčných nasadeniach **priamo z Netlify cez API alebo priame prepojenie**, (3) porovnať nasadené commity s GitHubom a podľa potreby načítať produkčné URL priamou HTTP požiadavkou bez použitia Chrome, (4) zobraziť výsledok v chate a aktualizovať dátum aj zistenia v tomto súbore.
+1. Prečítaj vetvu `main` a `index.html` v oboch GitHub repozitároch.
+2. Získaj stav projektov a produkčných nasadení **priamo z Netlify API alebo priameho prepojenia**; porovnaj nasadené commity s GitHubom.
+3. Načítaj obe produkčné URL priamou HTTP požiadavkou a over stav aj kľúčový obsah.
+4. Zobraz aktuálny výsledok prehľadne v chate a aktualizuj tento súbor.
 
-**Ak priamy prístup k Netlify nie je dostupný, nepoužívaj Chrome ako náhradu.** Jasne uveď, že Netlify časť zostala neoverená, a neoznačuj starší stav za aktuálny. Tento dokument je snímka stavu v čase kontroly; sám sa neaktualizuje. Zmena tohto postupu nie je novým overením nasadenia.
-
-*Poznámka: uloženie alebo aktualizácia tohto Markdown súboru vytvorí nový commit v `opf-web-presentations` a môže spustiť ďalšie automatické nasadenie bez zmeny obsahu úvodnej stránky.*
+**Nepoužívaj používateľov Chrome ani jeho prihlásenú reláciu.** Ak priame Netlify overenie zlyhá, označ Netlify časť ako neoverenú a starší stav nevydávaj za aktuálny.
