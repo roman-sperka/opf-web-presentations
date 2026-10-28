@@ -2,7 +2,8 @@
 
 **Dátum kontroly:** 28. 10. 2026 (Europe/Bratislava)  
 **Účel:** stručný, opakovateľný prehľad obsahu dvoch webov a ich prepojenia GitHub → Netlify.  
-**Rozsah pôvodnej kontroly:** GitHub repozitáre, produkčné stránky otvorené v prihlásenom prehliadači a prehľady projektov Netlify.\n**Pravidlo pre ďalšie kontroly:** Netlify overovať priamo cez jeho API alebo priame prepojenie dostupné asistentovi; nepoužívať používateľov Chrome ani jeho prihlásenú reláciu.
+**Rozsah pôvodnej kontroly:** GitHub repozitáre, produkčné stránky otvorené v prihlásenom prehliadači a prehľady projektov Netlify.
+**Pravidlo pre ďalšie kontroly:** Netlify overovať priamo cez jeho API alebo priame prepojenie dostupné asistentovi; nepoužívať používateľov Chrome ani jeho prihlásenú reláciu.
 
 ## Rýchly prehľad
 
@@ -37,6 +38,8 @@ GitHub repozitáre sú verejné. Netlify označuje **projekt** ako súkromný a 
 
 Napíš v chate napríklad: **„Aktualizuj GitHub–Netlify check podľa súboru `GITHUB_NETLIFY_CHECK.md` v repozitári `roman-sperka/opf-web-presentations`.“**
 
-Pri opakovaní treba (1) prečítať oba GitHub repozitáre a aktuálne `index.html`, (2) získať údaje o projektoch, pripojených repozitároch a posledných produkčných nasadeniach **priamo z Netlify cez API alebo priame prepojenie**, (3) porovnať nasadené commity s GitHubom a podľa potreby načítať produkčné URL priamou HTTP požiadavkou bez použitia Chrome, (4) zobraziť výsledok v chate a aktualizovať dátum aj zistenia v tomto súbore.\n\n**Ak priamy prístup k Netlify nie je dostupný, nepoužívaj Chrome ako náhradu.** Jasne uveď, že Netlify časť zostala neoverená, a neoznačuj starší stav za aktuálny. Tento dokument je snímka stavu v čase kontroly; sám sa neaktualizuje. Zmena tohto postupu nie je novým overením nasadenia.
+Pri opakovaní treba (1) prečítať oba GitHub repozitáre a aktuálne `index.html`, (2) získať údaje o projektoch, pripojených repozitároch a posledných produkčných nasadeniach **priamo z Netlify cez API alebo priame prepojenie**, (3) porovnať nasadené commity s GitHubom a podľa potreby načítať produkčné URL priamou HTTP požiadavkou bez použitia Chrome, (4) zobraziť výsledok v chate a aktualizovať dátum aj zistenia v tomto súbore.
+
+**Ak priamy prístup k Netlify nie je dostupný, nepoužívaj Chrome ako náhradu.** Jasne uveď, že Netlify časť zostala neoverená, a neoznačuj starší stav za aktuálny. Tento dokument je snímka stavu v čase kontroly; sám sa neaktualizuje. Zmena tohto postupu nie je novým overením nasadenia.
 
 *Poznámka: uloženie alebo aktualizácia tohto Markdown súboru vytvorí nový commit v `opf-web-presentations` a môže spustiť ďalšie automatické nasadenie bez zmeny obsahu úvodnej stránky.*
