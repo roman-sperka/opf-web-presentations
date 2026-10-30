@@ -23,7 +23,7 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 ## Zmeny od predchádzajúcej inventúry
 
 - Pribudli repozitáre `opf-strategy-dashboard` a `opf-teaching-apps`, každý s jedným novým `README.md`.
-- Pôvodné 4 Markdown súbory sú stále dostupné; ich obsah sa od predchádzajúcej inventúry nezmenil.
+- Pôvodné 4 Markdown súbory sú stále dostupné. Tento súbor `MD_CHECK.md` sa aktualizoval; ostatné 3 pôvodné súbory sa nezmenili.
 - Rozsah ďalších kontrol sa rozšíril na všetky dostupné repozitáre účtu `roman-sperka` s predponou `opf-`.
 
 ## Ako má vyzerať výsledok v chate
