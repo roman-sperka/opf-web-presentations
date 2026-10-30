@@ -15,15 +15,16 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 | --- | --- | --- | --- |
 | [MD_CHECK.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/MD_CHECK.md) | `opf-web-presentations` | Tento index Markdown súborov v dostupných repozitároch OPF. | **„MD check“** — znova prejsť súbory a aktualizovať index. |
 | [GITHUB_NETLIFY_CHECK.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/GITHUB_NETLIFY_CHECK.md) | `opf-web-presentations` | Prehľad dvoch publikovaných webov OPF, ich obsahu, GitHub repozitárov a nasadení na Netlify. | **„Aktualizuj GitHub–Netlify check“** — preveriť zdroje, živé weby a nasadenia bez používateľovho Chrome. |
-| [README.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/README.md) | `opf-web-presentations` | Stručný opis repozitára hlavného webu OPF. | **„Ukáž README hlavného webu OPF“** |
-| [README.md](https://github.com/roman-sperka/opf-web-test/blob/main/README.md) | `opf-web-test` | Stručný opis repozitára testovacieho webu OPF. | **„Ukáž README testovacieho webu OPF“** |
+| [README.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/README.md) | `opf-web-presentations` | Hlavný priestor pre webové prezentácie OPF; zatiaľ obsahuje úvodnú testovaciu stránku a odkaz na publikovaný web. | **„Ukáž README hlavného webu OPF“** |
+| [README.md](https://github.com/roman-sperka/opf-web-test/blob/main/README.md) | `opf-web-test` | Testovacie prostredie pre interaktívne aplikácie OPF a automatické publikovanie; aktuálny web má JavaScriptové počítadlo. | **„Ukáž README testovacieho webu OPF“** |
 | [README.md](https://github.com/roman-sperka/opf-strategy-dashboard/blob/main/README.md) | `opf-strategy-dashboard` (súkromný) | Strategické ciele, KPI, realizácia SZ OPF 2026+ a manažérske dashboardy. | **„Ukáž README strategického dashboardu OPF“** |
 | [README.md](https://github.com/roman-sperka/opf-teaching-apps/blob/main/README.md) | `opf-teaching-apps` | Výučbové simulátory, interaktívne prípadové štúdie a aplikácie pre študentov. | **„Ukáž README výučbových aplikácií OPF“** |
 
 ## Zmeny od predchádzajúcej inventúry
 
 - Pribudli repozitáre `opf-strategy-dashboard` a `opf-teaching-apps`, každý s jedným novým `README.md`.
-- Pôvodné 4 Markdown súbory sú stále dostupné. Tento súbor `MD_CHECK.md` sa aktualizoval; ostatné 3 pôvodné súbory sa nezmenili.
+- Doplnené opisy a odkazy na živé weby v `README.md` repozitárov `opf-web-presentations` a `opf-web-test`.
+- Aktualizovaný aj tento súbor `MD_CHECK.md`; `GITHUB_NETLIFY_CHECK.md` sa nezmenil.
 - Rozsah ďalších kontrol sa rozšíril na všetky dostupné repozitáre účtu `roman-sperka` s predponou `opf-`.
 
 ## Ako má vyzerať výsledok v chate
