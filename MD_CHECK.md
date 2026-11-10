@@ -1,7 +1,7 @@
 # MD check: prehľad Markdown súborov OPF
 
 **Dátum inventúry:** 10. 11. 2026  
-**Rozsah:** všetky aktuálne dostupné repozitáre účtu `roman-sperka` s názvom začínajúcim na `opf-`. Pri tejto kontrole: 4 repozitáre a 6 súborov `.md`.
+**Rozsah:** všetky aktuálne dostupné repozitáre účtu `roman-sperka` s názvom začínajúcim na `opf-`. Pri tejto kontrole: 4 repozitáre a 7 súborov `.md`.
 
 ## Vyvolanie
 
@@ -14,6 +14,7 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 | Súbor | Repozitár | Na čo slúži | Ako ho vyvolať |
 | --- | --- | --- | --- |
 | [MD_CHECK.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/MD_CHECK.md) | `opf-web-presentations` | Tento index Markdown súborov v dostupných repozitároch OPF. | **„MD check“** — znova prejsť súbory a aktualizovať index. |
+| [OPF_green_document_style.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/docs/opf-green-document/OPF_green_document_style.md) | `opf-web-presentations` | Prenosné pravidlá vzhľadu dokumentov OPF vrátane farieb, písma, loga, nadpisov a tabuliek. | **„Použi štýl OPF Green Document“** — prilož odkaz na súbor. |
 | [GITHUB_NETLIFY_CHECK.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/GITHUB_NETLIFY_CHECK.md) | `opf-web-presentations` | Prehľad dvoch publikovaných webov OPF, ich obsahu, GitHub repozitárov a nasadení na Netlify. | **„Aktualizuj GitHub–Netlify check“** — preveriť zdroje, živé weby a nasadenia bez používateľovho Chrome. |
 | [README.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/README.md) | `opf-web-presentations` | Hlavný priestor pre webové prezentácie OPF; zatiaľ obsahuje úvodnú testovaciu stránku a odkaz na publikovaný web. | **„Ukáž README hlavného webu OPF“** |
 | [README.md](https://github.com/roman-sperka/opf-web-test/blob/main/README.md) | `opf-web-test` | Testovacie prostredie pre interaktívne aplikácie OPF a automatické publikovanie; aktuálny web má JavaScriptové počítadlo. | **„Ukáž README testovacieho webu OPF“** |
@@ -22,7 +23,8 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 
 ## Zmeny od predchádzajúcej inventúry
 
-- Bez zmien v zozname súborov `.md` a v obsahu ostatných piatich súborov. Aktualizovaný bol iba dátum a výsledok kontroly v tomto prehľade.
+- Pribudol `OPF_green_document_style.md` a sprievodné logo PNG v priečinku `docs/opf-green-document/`. Logo nie je zahrnuté v počte súborov `.md`.
+- Obsah ostatných doteraz evidovaných súborov `.md` sa nezmenil; aktualizovaný bol aj tento index.
 
 ## Ako má vyzerať výsledok v chate
 
