@@ -22,7 +22,7 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 
 ## Zmeny od predchádzajúcej inventúry
 
-- Bez zmien v zozname súborov `.md` ani v ich obsahu oproti inventúre z 30. 10. 2026.
+- Bez zmien v zozname súborov `.md` a v obsahu ostatných piatich súborov. Aktualizovaný bol iba dátum a výsledok kontroly v tomto prehľade.
 
 ## Ako má vyzerať výsledok v chate
 
