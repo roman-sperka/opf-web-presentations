@@ -1,6 +1,6 @@
 # MD check: prehľad Markdown súborov OPF
 
-**Dátum inventúry:** 30. 10. 2026  
+**Dátum inventúry:** 10. 11. 2026  
 **Rozsah:** všetky aktuálne dostupné repozitáre účtu `roman-sperka` s názvom začínajúcim na `opf-`. Pri tejto kontrole: 4 repozitáre a 6 súborov `.md`.
 
 ## Vyvolanie
@@ -22,10 +22,7 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 
 ## Zmeny od predchádzajúcej inventúry
 
-- Pribudli repozitáre `opf-strategy-dashboard` a `opf-teaching-apps`, každý s jedným novým `README.md`.
-- Doplnené opisy a odkazy na živé weby v `README.md` repozitárov `opf-web-presentations` a `opf-web-test`.
-- Aktualizovaný aj tento súbor `MD_CHECK.md`; `GITHUB_NETLIFY_CHECK.md` sa nezmenil.
-- Rozsah ďalších kontrol sa rozšíril na všetky dostupné repozitáre účtu `roman-sperka` s predponou `opf-`.
+- Bez zmien v zozname súborov `.md` ani v ich obsahu oproti inventúre z 30. 10. 2026.
 
 ## Ako má vyzerať výsledok v chate
 
