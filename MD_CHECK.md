@@ -14,7 +14,7 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 | Súbor | Repozitár | Na čo slúži | Ako ho vyvolať |
 | --- | --- | --- | --- |
 | [MD_CHECK.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/MD_CHECK.md) | `opf-web-presentations` | Tento index Markdown súborov v dostupných repozitároch OPF. | **„MD check“** — znova prejsť súbory a aktualizovať index. |
-| [OPF document style](https://github.com/roman-sperka/opf-web-presentations/blob/main/docs/opf-green-document/OPF_document_style.md) | `opf-web-presentations` | Prenosné pravidlá vzhľadu dokumentov OPF vrátane farieb, písma, loga, nadpisov a tabuliek. | **„Použi OPF document style“** — prilož odkaz na súbor. |
+| [OPF document style](https://github.com/roman-sperka/opf-web-presentations/blob/main/docs/opf-green-document/OPF_document_style.md) | `opf-web-presentations` | Prenosné pravidlá vzhľadu dokumentov OPF s voľbou českého alebo anglického loga, farbami, písmom, nadpismi a tabuľkami. | **„Použi OPF document style“** — prilož odkaz na súbor. |
 | [GITHUB_NETLIFY_CHECK.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/GITHUB_NETLIFY_CHECK.md) | `opf-web-presentations` | Prehľad dvoch publikovaných webov OPF, ich obsahu, GitHub repozitárov a nasadení na Netlify. | **„Aktualizuj GitHub–Netlify check“** — preveriť zdroje, živé weby a nasadenia bez používateľovho Chrome. |
 | [README.md](https://github.com/roman-sperka/opf-web-presentations/blob/main/README.md) | `opf-web-presentations` | Hlavný priestor pre webové prezentácie OPF; zatiaľ obsahuje úvodnú testovaciu stránku a odkaz na publikovaný web. | **„Ukáž README hlavného webu OPF“** |
 | [README.md](https://github.com/roman-sperka/opf-web-test/blob/main/README.md) | `opf-web-test` | Testovacie prostredie pre interaktívne aplikácie OPF a automatické publikovanie; aktuálny web má JavaScriptové počítadlo. | **„Ukáž README testovacieho webu OPF“** |
@@ -23,7 +23,7 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 
 ## Zmeny od predchádzajúcej inventúry
 
-- Súbor `OPF_green_document_style.md` bol premenovaný na `OPF_document_style.md` a jeho nadpis na „OPF document style“. Sprievodné logo zostalo v tom istom priečinku.
+- K `OPF document style` pribudlo české logo. Dokument pri použití ponúka voľbu CZ alebo EN varianty loga.
 - Počet súborov `.md` zostáva 7.
 
 ## Ako má vyzerať výsledok v chate

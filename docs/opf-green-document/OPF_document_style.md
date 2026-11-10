@@ -10,7 +10,7 @@ Vytvářej dokumenty OPF v češtině, pokud zadání neurčí jiný jazyk. Pou�
 
 - **Písmo:** Calibri v celém dokumentu. Základní text 9,5 pt, černý nebo velmi tmavý. Nepoužívej modré písmo ani modré odkazy; odkazy mohou být černé a podtržené.
 - **Barvy:** hlavní zelená `#307871`, světlé podbarvení tabulek `#EAF2F1`, jemné oddělovací čáry `#CCDCD9`, tlumené metainformace `#626B6A`. Ostatní text černý.
-- **Logo:** oficiální horizontální logo OPF vlevo nahoře, v původních proporcích a bez překreslování. Pokud je k dispozici soubor `SLU-znacka-OPF-horizont-EN.png`, použij jej. Pokud logo chybí, vyžádej si jej; nevytvářej napodobeninu.
+- **Logo:** oficiální horizontální logo OPF vlevo nahoře, v původních proporcích a bez překreslování. K dispozici jsou dvě rovnocenné varianty: [CZ logo](SLU-znacka-OPF-horizont.png) a [EN logo](SLU-znacka-OPF-horizont-EN.png). Před vytvořením dokumentu nabídni uživateli volbu **CZ / EN**, pokud variantu výslovně neurčil. Volbu loga neodvozuj automaticky od jazyka dokumentu. Pokud uživatel variantu určil, použij ji bez dalšího dotazu. Pokud vybrané logo není dostupné, požádej o jeho přiložení; nevytvářej napodobeninu.
 - **Záhlaví:** napravo u okraje, ve dvou řádcích a tlumenou barvou: `Autor: Roman Šperka` a `Jazykový model: [skutečně použitý model]`. Pokud je určen jiný autor, nahraď jméno. Název modelu neodhaduj. Čas zpracování do záhlaví nepatří.
 - **Hlavní název:** 22 pt, tučný, zelený; začíná pod záhlavím s dostatečnou mezerou od loga. Pod ním může být krátký černý podtitul a drobná šedá poznámka s datem či účelem.
 - **Hlavní oddíly:** číslované nadpisy typu `01`, `02` jsou 15 pt, tučné a černé. Bezprostředně pod každým je zelená horizontální linka přes šířku textu, přibližně 2,25 pt. Další úrovně nadpisů jsou černé a bez linky.
@@ -26,6 +26,6 @@ Vytvářej dokumenty OPF v češtině, pokud zadání neurčí jiný jazyk. Pou�
 
 ## Příklad zadání
 
-> Použij přiložený `OPF_document_style.md` a logo OPF. Připrav dvoustránkový podklad k diskusi o [téma] v češtině. Vycházej pouze z přiložených zdrojů, uveď reference a odevzdej PDF.
+> Použij přiložený `OPF_document_style.md`. Logo: **CZ**. Připrav dvoustránkový podklad k diskusi o [téma] v češtině. Vycházej pouze z přiložených zdrojů, uveď reference a odevzdej PDF.
 
-Pro přesné použití loga nahraj spolu s tímto souborem také [logo OPF](SLU-znacka-OPF-horizont-EN.png). Samotný Markdown stačí jako textový předpis stylu.
+Pro přesné použití loga nahraj spolu s tímto souborem obě varianty: [CZ](SLU-znacka-OPF-horizont.png) a [EN](SLU-znacka-OPF-horizont-EN.png). Samotný Markdown stačí jako textový předpis stylu.
