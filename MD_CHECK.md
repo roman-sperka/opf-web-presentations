@@ -23,8 +23,7 @@ Markdown súbor nie je globálne zaregistrovaný príkaz ChatGPT. Mimo tohto pro
 
 ## Zmeny od predchádzajúcej inventúry
 
-- K `OPF document style` pribudlo české logo. Dokument pri použití ponúka voľbu CZ alebo EN varianty loga.
-- Počet súborov `.md` zostáva 7.
+- Bez zmien v zozname súborov `.md` a v obsahu ostatných šiestich súborov. Aktualizovaný bol iba výsledok kontroly v tomto prehľade.
 
 ## Ako má vyzerať výsledok v chate
 
