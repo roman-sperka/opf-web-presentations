@@ -1,4 +1,4 @@
-# OPF Green Document
+# OPF document style
 
 Přenositelná instrukce pro tvorbu dokumentů OPF v ChatGPT. Tento soubor lze vložit do projektových instrukcí nebo přiložit k jednotlivému zadání. Obsah dokumentu vždy určuje aktuální zadání a jeho zdroje; ukázkový text ze šablony se nepřebírá.
 
@@ -26,6 +26,6 @@ Vytvářej dokumenty OPF v češtině, pokud zadání neurčí jiný jazyk. Pou�
 
 ## Příklad zadání
 
-> Použij přiložený `OPF_green_document_style.md` a logo OPF. Připrav dvoustránkový podklad k diskusi o [téma] v češtině. Vycházej pouze z přiložených zdrojů, uveď reference a odevzdej PDF.
+> Použij přiložený `OPF_document_style.md` a logo OPF. Připrav dvoustránkový podklad k diskusi o [téma] v češtině. Vycházej pouze z přiložených zdrojů, uveď reference a odevzdej PDF.
 
 Pro přesné použití loga nahraj spolu s tímto souborem také [logo OPF](SLU-znacka-OPF-horizont-EN.png). Samotný Markdown stačí jako textový předpis stylu.
